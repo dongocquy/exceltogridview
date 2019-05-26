@@ -14,7 +14,7 @@ namespace WindowsApplication1
         public Form1()
         {
             InitializeComponent();
-            gridControl1.DataSource = ExcelDataBaseHelper.OpenFile("Data.xls");
+            gridControl1.DataSource = ExcelDataBaseHelper.OpenFile("test.xls");
         }
     }
 }
